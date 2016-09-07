@@ -1,0 +1,23 @@
+package asdf;
+import java.util.Scanner;
+public class q {
+	public static void user(int num1){
+		if(num1>0||num1<0) {
+			num1*=-1;
+		}
+		System.out.println(num1);
+	}
+	public static void main(String[] args) {
+		
+	Scanner scan=new Scanner(System.in);
+	System.out.println("두 수를 입력하세요.");
+	int a=scan.nextInt();
+	int b=scan.nextInt(); 
+	
+	int result=0;
+	
+	result=a-b;
+	user(result);
+	
+	}
+}
